@@ -1,4 +1,4 @@
 # Landing-Page-odin-project
 
-Creating a webpage from the design given from the project outline. 
-Skills learnt from Html And css so far would be displayed in the development of this webpage. 
+Creating a webpage using the design given from the project outline.
+I displayed Skills learnt from Html And css so far in the development of this webpage. 
