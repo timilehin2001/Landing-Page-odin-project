@@ -1,6 +1,19 @@
-
+.homepage {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto; 
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto; 
+}
 .header {
-    background-color: #1f2937;
     height: 450px;
     padding: 0px 150px 30px 150px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -11,6 +24,7 @@
     font-size: 24px;
     padding: 0px 0px 50px 0px;
     color: #f9faf8;
+    margin: 0;
  
 }
 
@@ -45,7 +59,7 @@ ul {
 
 .right-header {
     background: gray;
-    min-width: 500px;
+    min-width: 450px;
     height: 200px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
     display: flex;
@@ -66,18 +80,19 @@ ul {
 button{
     color: white;
     background-color: blue;
-    width: 80px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     border-radius: 5px;
+    border: 2px solid white;
+    font-weight: bold;
     margin: 10px 0px;
     flex-shrink: 0;
 }
 .middle-1 {
-    background-color: white;
     text-align: center;
     padding: 10px;
     margin: 0px;
-    height: 450px;
+    height: 500px;
     margin-bottom: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -86,7 +101,7 @@ h1{
     font-size: 35px;
     font-weight: 900;
     margin-bottom: 32px;
-    color: #1f2937;
+    color: white;
 }
 .container {
     display: flex;
@@ -123,5 +138,6 @@ h1{
     align-items: center;
     padding-top: 5px;
     font-size: 20px;
+    color: #e5e7eb;
 }
 
